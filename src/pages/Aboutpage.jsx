@@ -102,7 +102,7 @@ const Aboutpage = () =>{
       <section className="commitment">
         <h2>Our Commitment to You</h2>
         <p>
-          At [Salon Name], we are committed to using high-quality products and techniques that ensure your safety and satisfaction. Your comfort and happiness are our top priorities.
+        <strong>STKT</strong> aims to provide client-centric solutions with high standards of excellence and sincerity. We value innovation, sustainability, and cooperation to ensure our customers' and partners' long-term success.Our honest approach builds confidence, and we deliver great assistance to help businesses grow. Together, we are shaping a future of development and greatness.
         </p>
       </section>
       
@@ -117,16 +117,16 @@ const Aboutpage = () =>{
       </section>
       
       <footer className="footer">
-        <p>Ready for a new look? <a href="/book">Book your appointment today!</a></p>
+        <p>Ready for a new look? Reach out to us today!</p>
         <div className="contact-info">
-          <p>Address: [Salon Address]</p>
-          <p>Phone: [Salon Phone Number]</p>
-          <p>Email: [Salon Email]</p>
+          <p><strong>Address:</strong> FF-229 Ansal Corporate Plaza, Palam Vihar, Gurgaon.</p>
+          <p><strong>Phone:</strong> 9319375444</p>
+          <p><strong>Email:</strong> support@vyleesalon.in</p>
         </div>
         <div className="social-media">
-          <a href="[Facebook URL]">Facebook</a>
-          <a href="[Instagram URL]">Instagram</a>
-          <a href="[Twitter URL]">Twitter</a>
+          <a href="https://www.facebook.com/people/VYLEE/61561414439963/">Facebook</a>
+          <a href="https://www.instagram.com/vylee.in/">Instagram</a>
+          <a href="https://www.instagram.com/vylee.in/">Youtube</a>
         </div>
         </footer>
     </div>
