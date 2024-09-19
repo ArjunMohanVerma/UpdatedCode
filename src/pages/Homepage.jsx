@@ -92,50 +92,16 @@ const Homepage = () =>{
                 </MDBAccordionItem>
             </MDBAccordion>
             </MDBContainer>
-
-                {/* <Accordion>
-                {
-                    questions.filter(item => item.category_id == 11472068).map( training => (
-                        <Accordion.Item key={training.id} eventKey={training.id}>
-                            <Accordion.Header>{training.title}</Accordion.Header>
-                            <Accordion.Body>
-                                <h2>{`${training.price_max} BYN`}</h2>
-                                <p>{`Преподаватель мастер ${getEmployee(training.staff.map( item => item.id))}`}</p>
-                                <p>{`Продолжительность курса ${getTimeFromMins(training.staff.map( item => item.seance_length))}`}</p>
-                            </Accordion.Body>
-                        </Accordion.Item>
-                    ))
-                }
-                </Accordion> */}
                 <Row className='justify-content-center text-center'>
                     <Col className='mb-3 mt-3'>
                         <Link to={`/training`}>
-                            <Button size="lg" variant="primary">Contact us for More Details </Button>{' '}
+                            <Button size="lg" variant="primary">Contact Us </Button>{' '}
                         </Link>
                     </Col>
                 </Row>
             </Container>
 
             
-
-
-            {/* <Container className='mb-20' fluid>
-                <Row className='h-10'>
-                    <Col className='Header text-center'>
-                    <h2 className="decorated"><span>Our Partners!</span></h2> 
-                        
-                    </Col>
-                </Row>
-                <Row>
-                    <Col><iframe
-                     src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a06fd3012847bdc92446e6e74cd497e7570af1889b25c1726f509d298b583a9&amp;source=constructor"
-                     style={{width: "100%", height: "500px", frameborder: "0"}}
-                     title="myFrame"
-                     />
-                     </Col>
-                </Row>
-            </Container> */}
-
             <Container className='News mb-20' fluid>
                 <Row className='h-10'>
                         <Col className='News-Header text-center'>
@@ -154,7 +120,7 @@ const Homepage = () =>{
                         </Col>
                         <Col className='mb-5 pt-4'>
                                 <Button href="https://www.facebook.com/people/VYLEE/61561414439963/" size="lg" variant="primary" target="_blank">
-                                <FacebookLogo size={34} color={"white"}> 
+                                <FacebookLogo size={32} color={"white"}> 
                                 </FacebookLogo>
                                 </Button>{' '}
                         </Col>

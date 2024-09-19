@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import { CustomLink } from "./CustomLink";
-import logo from '../pages/img/white-and-black.png';
+import logo from '../pages/img/logos.png';
 import { Footer } from "./Footer";
 import { Container, Row, Col, Navbar, Nav} from "react-bootstrap";
 import {House, Info, ShoppingBag , UsersThree , InstagramLogo, Phone, Heart } from "phosphor-react";
@@ -18,7 +18,7 @@ const Layout = () =>{
             <Container className="Top-Header" fluid>
                 <Row className="h-100 d-none d-lg-flex ">
                 <Col className="Top-Header-Content col-2">
-                        <img src={logo} style={{height: "100px", width: "185px", padding: "0 1rem", marginTop: "5px"}} alt=''/>    
+                        <img src={logo} style={{height: "90px", width: "160px", padding: "0 1rem", marginTop: "5px"}} alt=''/>    
                     </Col>
                     <Col className="Top-Header-Content col-5 d-flex justify-content-end align-items-center">
                         <CustomLink to='/' onClick={ () => handleClick()}>Home</CustomLink>

@@ -1,13 +1,16 @@
 import { Slider } from '../components/Slider';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col,Button} from 'react-bootstrap';
 import { AboutComponent } from '../components/AboutComponent';
 import { Teampage } from './Teampage';  
 import medal from './img/medal.svg';
 import coffee from './img/coffee-cup.svg';
 import best from './img/best-friend.svg';
+import {InstagramLogo} from "phosphor-react";
+import {YoutubeLogo, FacebookLogo} from "phosphor-react";
 import {ReactTyped} from "react-typed";
-import logo from "./img/white-and-black.png";
+import logo from "./img/logos.png";
 import {Card} from '../components/Card';
+import {Chose} from '../components/Chose';
 import { SwiperComponent } from '../components/SwiperComponent';
 
 const Aboutpage = () =>{
@@ -34,6 +37,26 @@ const Aboutpage = () =>{
         }
     ];
 
+    const cardsDataa = [
+      {
+          image: 'https://th.bing.com/th/id/OIP.EwG6x9w6RngqsKrPJYxULAHaHa?rs=1&pid=ImgDetMain',
+          title: 'Profile - Creation'
+      },
+      {
+          image: 'https://qph.cf2.quoracdn.net/main-qimg-a272bf780800d3a73f82d59dc03eda02-pjlq',
+          title: 'Online - Booking'
+      },
+      {
+          image: 'https://th.bing.com/th/id/R.2d52fa0c82a136aee53e6347e4d77231?rik=ECI5p73D42laNQ&riu=http%3a%2f%2fwww.digitalclaritygroup.com%2fwp-content%2fuploads%2f2018%2f01%2fcustomer-diagram.jpg&ehk=qJr%2bvtXmodKGzzZV%2bY%2frKwJ8rsY922eywiCHFV3VOD8%3d&risl=&pid=ImgRaw&r=0',
+          title: 'Customer Management'
+      },
+      {
+          image: 'https://blog.resellerclub.com/wp-content/uploads/2016/09/1.png',
+          title: 'Promotions and Deals'
+      },
+  ];
+
+
     return (
         <>
 
@@ -52,13 +75,13 @@ const Aboutpage = () =>{
 
         </p>
       </section>
-      
+      <br/>
       <section className="our-story">
         <h2>Our Mission</h2>
         <p>
         To revolutionize the salon industry by seamlessly connecting salon owners with discerning customers through innovative, convenient, and high-quality digital solutions, ensuring access to top-notch salon services for everyone.
         </p>
-      </section>
+      </section><br/>
       <section className="our-story">
         <h2>Our Vision</h2>
         <p>
@@ -66,10 +89,10 @@ const Aboutpage = () =>{
         </p>
       </section>
       
-      <section className="our-team">
+      {/* <section className="our-team">
         <h2>Meet Our Talented Team</h2>
         <div className="team-members">
-          {/* Replace with actual team member data */}
+          {/* Replace with actual team member data 
           {[
             { name: 'John Doe', specialty: 'Hair Stylist' },
             { name: 'Jane Smith', specialty: 'Color Specialist' },
@@ -81,8 +104,8 @@ const Aboutpage = () =>{
             </div>
           ))}
         </div>
-      </section>
-      
+      </section> */}
+      <br/>
       <section className="our-services">
         <h2>What We Offer</h2>
         <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
@@ -98,24 +121,30 @@ const Aboutpage = () =>{
           <li>Bridal Packages</li>
         </ul> */}
       </section>
-      
+      <br/>
       <section className="commitment">
         <h2>Our Commitment to You</h2>
         <p>
         <strong>STKT</strong> aims to provide client-centric solutions with high standards of excellence and sincerity. We value innovation, sustainability, and cooperation to ensure our customers' and partners' long-term success.Our honest approach builds confidence, and we deliver great assistance to help businesses grow. Together, we are shaping a future of development and greatness.
         </p>
       </section>
-      
-      <section className="testimonials">
-        <h2>What Our Clients Say</h2>
-        <blockquote>
-          “The best salon experience I’ve ever had!” – [Client Name]
-        </blockquote>
-        <blockquote>
-          “I always leave feeling like a million bucks!” – [Client Name]
-        </blockquote>
+      <br/>
+      <section className="our-services">
+        <h2>How we help Partners</h2>
+        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+            {cardsDataa.map((card, index) => (
+                <Card key={index} image={card.image} title={card.title} />
+            ))}
+        </div>
+        {/* <ul>
+          <li>Haircuts & Styling</li>
+          <li>Hair Coloring</li>
+          <li>Skincare Treatments</li>
+          <li>Nail Services</li>
+          <li>Bridal Packages</li>
+        </ul> */}
       </section>
-      
+      <Chose/>
       <footer className="footer">
         <p>Ready for a new look? Reach out to us today!</p>
         <div className="contact-info">
@@ -123,11 +152,31 @@ const Aboutpage = () =>{
           <p><strong>Phone:</strong> 9319375444</p>
           <p><strong>Email:</strong> support@vyleesalon.in</p>
         </div>
-        <div className="social-media">
+        <Row className='justify-content-center text-center'>
+                        <Col className='mb-5 pt-4'>
+                                <Button href="https://www.instagram.com/vylee.in/" size="lg" variant="primary" target="_blank">
+                                <InstagramLogo size={20} color={"white"}> 
+                                </InstagramLogo>
+                                </Button>{' '}
+                        </Col>
+                        <Col className='mb-5 pt-4'>
+                                <Button href="https://www.facebook.com/people/VYLEE/61561414439963/" size="lg" variant="primary" target="_blank">
+                                <FacebookLogo size={22} color={"white"}> 
+                                </FacebookLogo>
+                                </Button>{' '}
+                        </Col>
+                        <Col className='mb-5 pt-4'>
+                                <Button href="https://www.youtube.com/@STKTBeautyandTechnology" size="lg" variant="primary" target="_blank">
+                                <YoutubeLogo size={20} color={"white"}> 
+                                </YoutubeLogo>
+                                </Button>{' '}
+                        </Col>
+                    </Row>
+        {/* <div className="social-media">
           <a href="https://www.facebook.com/people/VYLEE/61561414439963/">Facebook</a>
           <a href="https://www.instagram.com/vylee.in/">Instagram</a>
           <a href="https://www.instagram.com/vylee.in/">Youtube</a>
-        </div>
+        </div> */}
         </footer>
     </div>
 

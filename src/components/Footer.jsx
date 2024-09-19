@@ -3,7 +3,7 @@ import '../css/Footer.css';
 import { CustomLink } from './CustomLink';
 import {InstagramLogo} from "phosphor-react";
 import {YoutubeLogo, FacebookLogo} from "phosphor-react";
-import logo from '../pages/img/white-and-black.png';
+import logo from '../pages/img/logos.png';
 
 const Footer = () =>{
     return (
