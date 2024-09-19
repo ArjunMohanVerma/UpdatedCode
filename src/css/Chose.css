@@ -131,7 +131,7 @@ transition: all .5s ease 0;
 transition: all 0.5s ease 0s;
 }
 .item:hover .item, .item:hover span.icon{
-background:#fff;
+/* background:#fff; */
 border-radius:10px;
 -webkit-transition: all .5s ease 0;
 transition: all .5s ease 0;
@@ -153,11 +153,11 @@ line-height: 96px;
 border-radius: 50px;
 }
 .item .feature_box_col_one{
-background:rgba(247, 198, 5, 0.20);
+background-image:url("https://th.bing.com/th/id/OIP.A836J5zoC9npov2He4Q1fwHaHa?pid=ImgDet&w=191&h=191&c=7");
 color:#f91942
 }
 .item .feature_box_col_two{
-background:rgba(255, 77, 28, 0.15);
+    background-image:url("https://th.bing.com/th?id=OIP.bOyCjck_W_y62noStdBqbwHaE8&w=306&h=204&c=8&rs=1&qlt=90&r=0&o=6&pid=3.1&rm=2");
 color:#f91942
 }
 .item .feature_box_col_three{
