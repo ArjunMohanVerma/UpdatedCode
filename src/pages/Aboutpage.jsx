@@ -142,7 +142,7 @@ const Aboutpage = () =>{
         <p>Ready for a new look? Reach out to us today!</p>
         <div className="contact-info">
           <p><strong>Address:</strong> FF-229 Ansal Corporate Plaza, Palam Vihar, Gurgaon.</p>
-          <p><strong>Phone:</strong> 9319375444</p>
+          <p><strong>Phone:</strong> +91-9319375444</p>
           <p><strong>Email:</strong> support@vyleesalon.in</p>
         </div>
         <Row className='justify-content-center text-center'>

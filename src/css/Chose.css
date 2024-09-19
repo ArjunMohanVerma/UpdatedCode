@@ -49,7 +49,7 @@ margin-bottom: 60px;
 .section-head h4 {
 position: relative;
 padding:0;
-color:#f91942;
+color:#b577b2;
 line-height: 1;
 letter-spacing:0.3px;
 font-size: 34px;
@@ -124,7 +124,7 @@ transition: all .5s ease 0;
 transition: all 0.5s ease 0s;
 }
 .item:hover{
-background:#f91942;
+background:#b577b2;
 box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.2);
 -webkit-transition: all .5s ease 0;
 transition: all .5s ease 0;
@@ -147,14 +147,16 @@ transition: all 0.5s ease 0s;
 font-size: 40px;
 margin-bottom:25px;
 color: #f91942;   
-width: 90px;
-height: 90px;
+width: 80px;
+height: 80px;
+object-fit: contain;
 line-height: 96px;
 border-radius: 50px;
 }
 .item .feature_box_col_one{
-background-image:url("https://th.bing.com/th/id/OIP.A836J5zoC9npov2He4Q1fwHaHa?pid=ImgDet&w=191&h=191&c=7");
-color:#f91942
+background-image:url("https://th.bing.com/th/id/OIP.bC-BLy6NucRrGgz9Fkt5YAHaE8?rs=1&pid=ImgDetMain");
+color:#f91942;
+
 }
 .item .feature_box_col_two{
     background-image:url("https://th.bing.com/th?id=OIP.bOyCjck_W_y62noStdBqbwHaE8&w=306&h=204&c=8&rs=1&qlt=90&r=0&o=6&pid=3.1&rm=2");
