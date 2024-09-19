@@ -30,7 +30,7 @@ const Footer = () =>{
                         <p>Address:</p>
                         <p>FF-229 Ansal Corporate Plaza, Palam Vihar, Gurgaon.</p>
                         <p>Mobile:</p>
-                        <p>9319375444</p>
+                        <p>+91-9319375444</p>
                         <p>Email:</p>
                         <p>support@vyleesalon.in</p>
 

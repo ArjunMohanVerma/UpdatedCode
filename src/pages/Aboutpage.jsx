@@ -1,12 +1,5 @@
-import { Slider } from '../components/Slider';
-import { Container, Row, Col,Button} from 'react-bootstrap';
-import { AboutComponent } from '../components/AboutComponent';
-import { Teampage } from './Teampage';  
-import medal from './img/medal.svg';
-import coffee from './img/coffee-cup.svg';
-import best from './img/best-friend.svg';
-import {InstagramLogo} from "phosphor-react";
-import {YoutubeLogo, FacebookLogo} from "phosphor-react";
+import { Row, Col,Button} from 'react-bootstrap';
+import {InstagramLogo,YoutubeLogo, FacebookLogo} from "phosphor-react";
 import {ReactTyped} from "react-typed";
 import logo from "./img/logos.png";
 import {Card} from '../components/Card';

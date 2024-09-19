@@ -42,7 +42,7 @@ const Layout = () =>{
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mt-1 d-flex text-center " style={{height: "100svh"}}>
                             <CustomLink to='/' onClick={ () => handleClick()}><House size={32} color={"white"} style={{marginTop :"-4px"}}/>Home</CustomLink>
-                            <CustomLink to='/service' onClick={ () => handleClick()}><Heart size={32} color={"white"} style={{marginTop :"-4px"}}/>About Us</CustomLink>
+                            <CustomLink to='/about' onClick={ () => handleClick()}><Heart size={32} color={"white"} style={{marginTop :"-4px"}}/>About Us</CustomLink>
                             <CustomLink to='/team' onClick={ () => handleClick()}><UsersThree size={32} color={"white"} style={{marginTop :"-4px"}}/>Services</CustomLink>
                             <CustomLink to='/about' onClick={ () => handleClick()}><Info size={32} color={"white"} style={{marginTop :"-4px"}}/>Blogs</CustomLink>
                             <CustomLink to='/posts' onClick={ () => handleClick()}><InstagramLogo size={32} color={"white"} style={{marginTop :"-4px"}}/>Login/SignUp</CustomLink>

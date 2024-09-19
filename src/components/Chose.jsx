@@ -25,7 +25,7 @@ const Chose = () =>{
         <div class="col-lg-4 col-sm-6">
           <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-hourglass-half"></i></span>
             <h6>Enhanced Client Engagement</h6>
-            <p>: VYLEE facilitates positive interaction with your customers. Respond to reviews, answer questions, and build a loyal customer base that keeps coming back.</p>
+            <p>VYLEE facilitates positive interaction with your customers. Respond to reviews, answer questions, and build a loyal customer base that keeps coming back.</p>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6">
